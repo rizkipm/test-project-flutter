@@ -33,6 +33,11 @@ class Page1 extends StatefulWidget {
 class _Page1State extends State<Page1> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+
+      appBar: AppBar(
+        title: Text('Ini Page 1'),
+      ),
+    );
   }
 }
